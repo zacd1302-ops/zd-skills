@@ -1,0 +1,5 @@
+interface:
+  display_name: "Study Course"
+  short_description: "Work through a named week of supplied course material"
+policy:
+  allow_implicit_invocation: false
