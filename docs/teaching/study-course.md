@@ -8,7 +8,7 @@ The course material is authoritative. The skill follows your week and your mater
 
 You invoke this by typing `/study-course`; the [agent](https://www.aihero.dev/ai-coding-dictionary/agent) won't reach for it on its own.
 
-Reach for it when you have a course with set material, a tutorial and practice sheets, and you want to actually complete a week of it rather than skim it. The skill's job is to keep you moving through the material and to catch you when a step assumes something you do not have.
+Reach for it when you have a course with set material, slides or notes, a tutorial and practice sheets, and you want to actually complete a week of it rather than skim it. The skill's job is to keep you moving through the material and to catch you when a step assumes something you do not have.
 
 | What you want | What to reach for |
 | --- | --- |
@@ -19,7 +19,7 @@ Reach for it when you have a course with set material, a tutorial and practice s
 
 ## Prerequisites
 
-`study-course` needs the material to follow: a path or URL to the course, and the week you want to work. It is also [stateful](https://www.aihero.dev/ai-coding-dictionary/stateful), so run it in a directory you are happy to give over to the subject: `COURSE.md`, `PLAN.md`, `attempts/`, `gaps.md`, `learning-records/` and `NOTES.md` accumulate there, and that state is what lets the next session pick the week up.
+`study-course` needs the material to follow: a path or URL to the course, the week you want to work, slides or notes, and tutorial and practice sheets. It is also [stateful](https://www.aihero.dev/ai-coding-dictionary/stateful), so run it in a directory you are happy to give over to the subject: `COURSE.md`, `PLAN.md`, `attempts/`, `gaps.md`, `learning-records/` and `NOTES.md` accumulate there, and that state is what lets the next session pick the week up.
 
 ## The plan comes first
 
@@ -42,7 +42,7 @@ It flags the suspected error to you, records it in `COURSE.md`, and follows your
 - The first session ends with a `PLAN.md` you agreed to, not a lesson.
 - You finish the tutorial and the practice sheets yourself, with the support fading as you go.
 - Every attempt you submit lands in `attempts/`.
-- A blocked week shows the gap repaired in `gaps.md` before the course work resumes.
+- A blocked week shows the smallest gap repaired and checked with fresh practice in `gaps.md` before the course work resumes.
 - Suspected errors in the material appear in `COURSE.md` and were raised with you.
 - `learning-records/` grows one file per session.
 

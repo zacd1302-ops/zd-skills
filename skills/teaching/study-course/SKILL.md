@@ -25,11 +25,11 @@ Treat the current directory as the workspace for one subject, one subject per di
 
 Run the week in this order.
 
-1. **Locate and inspect.** Find the named week's material the user supplies. Read the tutorial, the practice sheets, and anything else the week covers before proposing anything.
+1. **Locate and inspect.** Find the named week's material the user supplies. Read the slides or notes, the tutorial, the practice sheets, and anything else the week covers before proposing anything.
 2. **Propose a plan.** Before teaching, write `PLAN.md`: what the tutorial covers, what the practice sheets demand, the prerequisites the plan assumes, and how independent completion is verified. Get the user's agreement before moving on. A plan they have not agreed to is a plan you do not execute.
 3. **Teach toward completion.** The user completes the tutorial and practice sheets themselves. Tutor on demand, and scaffold: give just enough support for the step in front of them, then fade it as they take the step over. The goal is independent completion, not a transcript of your explanations.
 4. **Accept attempts.** Any of three submission forms counts as an attempt: a handwritten result report, pasted code, or a pointer to code. Record each attempt in `attempts/` as it arrives.
-5. **Repair gaps.** When a recorded prerequisite gap blocks the week, repair it first: teach the prerequisite, then come back to the week. Record the repair in `gaps.md` and in the learning record.
+5. **Repair gaps.** When a recorded prerequisite gap blocks the week, find the smallest gap that blocks progress. Teach that prerequisite, give fresh practice to check the repair, then come back to the week. Record the repair in `gaps.md` and in the learning record.
 6. **Flag suspected errors.** The material is authoritative, but it can be wrong: a typo, a contradiction, a broken step. When it looks wrong, flag it to the user, note it in `COURSE.md`, and proceed per their decision. Never correct it silently.
 7. **Record.** After each session, write a learning record: what was covered, what errors surfaced, what was repaired.
 
