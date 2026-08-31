@@ -12,15 +12,35 @@
 
 [![skills.sh](https://skills.sh/b/mattpocock/skills)](https://skills.sh/mattpocock/skills)
 
-My agent skills that I use every day to do real engineering - not vibe coding.
+This repository is Zac's working collection of agent skills for real engineering, not vibe coding. It started from Matt Pocock's skills and now includes selected skills adapted from pstack.
 
 Developing real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve.
 
 These skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy.
 
-If you want to keep up with changes to these skills, and any new ones I create, you can join ~60,000 other devs on my newsletter:
+To keep up with Matt's skills and new engineering workflows, join the newsletter:
 
 [Sign Up To The Newsletter](https://www.aihero.dev/s/skills-newsletter)
+
+## Credits
+
+- **Matt Pocock** created the original engineering skills this repository builds on. See [Matt's skills repository](https://github.com/mattpocock/skills).
+- **Lauren Tan**, known online as [poteto](https://github.com/poteto), created [pstack](https://github.com/cursor/plugins/tree/main/pstack), which contributed the parallel-work, verification, writing, and workflow skills in this repository.
+- **Zac** maintains this fork, adapts imported skills to the repository's conventions, and adds custom skills.
+
+## Current state
+
+The repository contains **46 skills**:
+
+- **34 promoted skills** in the Claude Code plugin, across engineering, productivity, and teaching.
+- **8 beta skills** in `skills/in-progress/`, available for direct installation but not included in the plugin.
+- **4 utility skills** in `skills/misc/`, kept around but not promoted.
+
+The custom skills section currently highlights the weekly course workflow.
+
+### Custom skills
+
+- **[study-course](./skills/teaching/study-course/SKILL.md)**: Work through a named week of supplied course material, with a persistent plan, attempts, prerequisite repair, and progress across sessions.
 
 ## Installation (30-second setup)
 
@@ -191,7 +211,7 @@ Skills I use daily for code work.
 
 **User-invoked**
 
-- **[ask-matt](./skills/engineering/ask-matt/SKILL.md)**: Ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
+- **[ask-zac](./skills/engineering/ask-zac/SKILL.md)**: Ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
 - **[grill-with-docs](./skills/engineering/grill-with-docs/SKILL.md)**: Grilling session that also builds your project's domain model, sharpening terminology and updating `CONTEXT.md` and ADRs inline.
 - **[triage](./skills/engineering/triage/SKILL.md)**: Move issues through a state machine of triage roles.
 - **[improve-codebase-architecture](./skills/engineering/improve-codebase-architecture/SKILL.md)**: Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.
@@ -200,6 +220,10 @@ Skills I use daily for code work.
 - **[to-tickets](./skills/engineering/to-tickets/SKILL.md)**: Break any plan, spec, or conversation into a set of tracer-bullet tickets, each declaring its blocking edges, written as text in a local file, or as native blocking links on a real tracker.
 - **[implement](./skills/engineering/implement/SKILL.md)**: Build the work described by a spec or set of tickets, driving `/tdd` at pre-agreed seams and closing out with `/code-review` before committing.
 - **[wayfinder](./skills/engineering/wayfinder/SKILL.md)**: Plan a huge chunk of work, more than one agent session can hold, as a shared map of decision tickets on the issue tracker, and resolve them one at a time until the way to the destination is clear.
+- **[arena](./skills/engineering/arena/SKILL.md)**: Run parallel attempts at one task, compare them against a rubric, and synthesize the strongest result.
+- **[swarm](./skills/engineering/swarm/SKILL.md)**: Fan out parallel workers over separate slices or races and return one report.
+- **[show-me-your-work](./skills/engineering/show-me-your-work/SKILL.md)**: Keep a reviewable TSV decision trail for long-running or unattended work.
+- **[blast-radius](./skills/engineering/blast-radius/SKILL.md)**: Find what a change could break beyond its diff and prove the central safety fact.
 
 **Model-invoked**
 
@@ -223,11 +247,15 @@ General workflow tools, not code-specific.
 - **[handoff](./skills/productivity/handoff/SKILL.md)**: Compact the current conversation into a handoff document so another agent can continue the work.
 - **[to-questionnaire](./skills/productivity/to-questionnaire/SKILL.md)**: Turn a decision you can't answer alone into a Markdown questionnaire for the one person who can, filled in async, or together over a meeting. It grills you about the send (who it's for, what you need back), not the subject.
 - **[wait-what](./skills/productivity/wait-what/SKILL.md)**: Fire this the moment a message doesn't land. The agent re-pitches it with the context you're missing, in plain English, using your `CONTEXT.md` vocabulary.
+- **[automate-me](./skills/productivity/automate-me/SKILL.md)**: Turn repeated working preferences into a personal mode skill.
+- **[reflect](./skills/productivity/reflect/SKILL.md)**: Review a completed session and route durable lessons into skill edits.
+- **[technical-writing](./skills/productivity/technical-writing/SKILL.md)**: Write and review clear technical documentation.
 
 **Model-invoked**
 
 - **[grilling](./skills/productivity/grilling/SKILL.md)**: Interview the user relentlessly about a plan, decision, or idea until every branch of the design tree is resolved. The reusable interview primitive behind `grill-me`, `grill-with-docs`, `triage`, `wayfinder` and `improve-codebase-architecture`.
 - **[writing-for-agents](./skills/productivity/writing-for-agents/SKILL.md)**: Writing documents for agents: skills, AGENTS.md/CLAUDE.md, and any doc an agent reaches by a pointer.
+- **[unslop](./skills/productivity/unslop/SKILL.md)**: Remove AI writing tells while keeping prose specific and human.
 
 ### Teaching
 

@@ -50,4 +50,4 @@ It flags the suspected error to you, records it in `COURSE.md`, and follows your
 
 `study-course` is a **reach-for-it-anytime standalone**. It is not a step in the build chain; it owns a directory and works through one week at a time.
 
-Its one real neighbour is [teach](https://aihero.dev/skills-teach), the other teaching skill, because both run a stateful learning workspace: `teach` when you need a curriculum built for you, `study-course` when the course decides the curriculum. When you are not sure which skill or flow fits, [ask-matt](https://aihero.dev/skills-ask-matt) routes you over the whole set.
+Its one real neighbour is [teach](https://aihero.dev/skills-teach), the other teaching skill, because both run a stateful learning workspace: `teach` when you need a curriculum built for you, `study-course` when the course decides the curriculum. When you are not sure which skill or flow fits, [ask-zac](https://aihero.dev/skills-ask-zac) routes you over the whole set.

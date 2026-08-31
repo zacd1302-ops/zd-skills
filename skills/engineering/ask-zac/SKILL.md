@@ -1,10 +1,10 @@
 ---
-name: ask-matt
+name: ask-zac
 description: Ask which skill or flow fits your situation. A router over the skills in this repo.
 disable-model-invocation: true
 ---
 
-# Ask Matt
+# Ask Zac
 
 You don't remember every skill, so ask.
 
@@ -81,10 +81,18 @@ Off the main flow entirely.
 - **`/research`**: delegate reading legwork to a **background agent**: it investigates a question against **primary sources**, then leaves a cited Markdown file in the repo. Keep working while it reads. The file it produces is something to take *into* the main flow at `/grill-with-docs`, since research feeds the thinking rather than replacing it.
 - **`/to-questionnaire`** comes in when the thing blocking you isn't in your head or the codebase but in **someone else's**, and it writes them a questionnaire to fill in. It's the inverse of `/grill-me`: instead of interviewing you about the subject, it interviews you about the **send** (who it's going to, what you need back) and aims the questions at the gap. What comes back is material for `/grill-with-docs` or `/to-spec`.
 - **`/wizard`** is for the steps only a **human** can take: provisioning infrastructure, setting up credentials or CI secrets, clicking through an unfamiliar third-party dashboard, running a one-off migration or cutover. It generates an interactive bash script that opens each URL, captures each value, and writes it into `.env` and GitHub secrets, so the procedure stops being something you re-explain to an agent every time. Model-invoked, so the agent reaches for it the moment it hits a wall only you can pass. If the agent could just do it itself, it should; this is for where a human is genuinely in the loop.
+- **`/arena`** runs several attempts at one task, compares them against a rubric, and synthesizes the strongest result. Use it when the design space is open.
+- **`/swarm`** fans work out across independent slices or races, then returns one report. Use it when the work divides cleanly.
+- **`/show-me-your-work`** keeps an append-only TSV decision trail for long-running or unattended work.
+- **`/blast-radius`** checks what a change could break beyond its diff and proves the central safety fact before merge.
 - **`/wait-what`** is the corrective for a message that didn't land. Use it mid-conversation, inside any other skill, and the agent re-pitches what it just said with the context you were missing, in plain English, using the `CONTEXT.md` vocabulary. It works after the fact; `/grill-with-docs` is the upfront cure, because a shared language agreed early is what stops the jargon arriving at all.
 - **`/teach`**: learn a concept over multiple sessions, using the current directory as a stateful workspace.
 - **`/study-course`**: work through a named week of course material you supply, teaching toward independent completion of the tutorial and practice sheets and repairing recorded prerequisite gaps. The course material is authoritative; suspected errors get flagged. For learning with no set curriculum, `/teach` instead.
 - **`/writing-for-agents`** is the reference for writing documents agents consume: skills, AGENTS.md, pointed-at docs.
+- **`/automate-me`** mines repeated working preferences into a personal mode skill.
+- **`/reflect`** reviews a completed session and proposes durable skill edits, waiting for approval before applying them.
+- **`/technical-writing`** is the general standard for clear technical documentation.
+- **`/unslop`** is the prose cleanup reference that other writing skills can use.
 
 ## Precondition
 

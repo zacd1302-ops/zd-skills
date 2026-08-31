@@ -1,0 +1,5 @@
+interface:
+  display_name: "Blast radius"
+  short_description: "Find risks beyond the diff"
+policy:
+  allow_implicit_invocation: false
