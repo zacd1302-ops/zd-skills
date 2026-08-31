@@ -10,7 +10,7 @@ You invoke this by typing `/technical-writing`, and the agent won't reach for it
 
 ## Pick the document mode
 
-Choose tutorial, how-to, reference, or explanation before editing. Keep instructions as commands, put conditions before guarded steps, and split sentences that carry more than one thought. Apply [unslop](https://aihero.dev/skills-unslop) to remove AI writing tells.
+Choose tutorial, how-to, reference, or explanation before editing. Keep instructions as commands, put conditions before guarded steps, and split sentences that carry more than one thought. Call [unslop](https://aihero.dev/skills-unslop) after editing to remove AI writing tells.
 
 ## It's working if
 

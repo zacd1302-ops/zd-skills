@@ -89,6 +89,7 @@ No. It diffs `<fixed-point>...HEAD`, three-dot, which is measured from the merge
 
 - [implement](https://aihero.dev/skills-implement) is the closest neighbour: it drives the build and calls this skill as its own closing review before committing.
 - [to-spec](https://aihero.dev/skills-to-spec) and [to-tickets](https://aihero.dev/skills-to-tickets) produce the document the Spec axis checks against; a vague spec makes that axis vague.
+- [blast-radius](https://aihero.dev/skills-blast-radius) checks hidden consumers and runtime risks before this review when the change warrants it.
 - [improve-codebase-architecture](https://aihero.dev/skills-improve-codebase-architecture) is the whole-codebase counterpart: this skill only ever looks at one diff.
 
 [ask-zac](https://aihero.dev/skills-ask-zac) routes across the whole set when you are unsure which skill the situation wants.

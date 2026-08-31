@@ -1,8 +1,8 @@
 # Agent skills
 
-A collection of reusable skills for Claude Code, Codex, and other coding agents. The repository contains 46 skills:
+A collection of reusable skills for Claude Code, Codex, and other coding agents. The repository contains 47 skills:
 
-- 34 promoted skills in the plugin
+- 35 promoted skills in the plugin
 - 8 beta skills in `skills/in-progress/`
 - 4 utility skills in `skills/misc/`
 
@@ -69,6 +69,7 @@ Promoted skills are included in the plugin. User-invoked skills run only when yo
 #### Model-invoked
 
 - [`prototype`](./skills/engineering/prototype/SKILL.md): Answers a design question with throwaway code.
+- [`copse`](./skills/engineering/copse/SKILL.md): Uses Copse records and worktree links as the local issue tracker.
 - [`diagnosing-bugs`](./skills/engineering/diagnosing-bugs/SKILL.md): Reproduces, instruments, fixes, and regression-tests hard bugs.
 - [`research`](./skills/engineering/research/SKILL.md): Researches primary sources and writes cited Markdown.
 - [`tdd`](./skills/engineering/tdd/SKILL.md): Runs a red-green-refactor loop one vertical slice at a time.

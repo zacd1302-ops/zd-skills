@@ -1,0 +1,3 @@
+interface:
+  display_name: "Copse"
+  short_description: "Use Copse as a local issue tracker"

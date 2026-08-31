@@ -1,6 +1,6 @@
 ## What it does
 
-`automate-me` turns repeated working preferences into a personal `-mode` skill. It mines workspace-scoped transcripts, checks patterns with you, drafts the skill, and runs the prose through `unslop`.
+`automate-me` turns repeated working preferences into a personal `-mode` skill. It mines workspace-scoped transcripts, checks patterns with you, drafts the skill, and calls `unslop` for the final prose pass.
 
 It requires repeated evidence before it turns a preference into a rule. A single unusual conversation is not enough.
 

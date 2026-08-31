@@ -25,6 +25,17 @@ The route most work travels. You have an idea and want it built.
 
    Either way, **`/implement`** builds each issue by driving **`/tdd`** internally (one red-green slice at a time), then closes out by running **`/code-review`**, a two-axis review (Standards + Spec) of the diff, before committing. Reach for **`/tdd`** on its own when you just want to build a concrete behaviour test-first without a full spec, and **`/code-review`** on its own whenever you want to review a branch or PR against a fixed point.
 
+### Quality lanes
+
+Use these as focused additions to the main flow, not as a checklist for every change:
+
+- **Open design**: ask the user to run **`/arena`** when competing implementations need comparison.
+- **Independent work**: ask the user to run **`/swarm`** when the work divides into separate slices.
+- **Hidden risk**: call the Skill tool with **"blast-radius"** before review when a change may affect consumers outside the diff.
+- **Adversarial review**: use **`/code-review`** for standards and spec, then add a separate reviewer only when the change warrants it.
+- **Long or unattended work**: use **`/show-me-your-work`** and keep one decision trail.
+- **After the run**: ask the user to run **`/reflect`** when the task exposed a reusable lesson.
+
 ### Context hygiene
 
 Keep steps 1–3 in **one unbroken context window** (don't compact or clear until after `/to-tickets`) so the grilling, spec, and tickets all build on the same thinking. Each `/implement` then starts fresh, working from the ticket.
@@ -50,6 +61,10 @@ A starting situation that generates work, then merges onto the main flow.
 Not feature work, just upkeep.
 
 - **`/improve-codebase-architecture`** runs whenever you have a spare moment to keep the codebase good for agents to operate in. It surfaces **deepening opportunities**; picking one _generates an idea_ you can take into the main flow at `/grill-with-docs`. It's the survey that finds the candidates; **`/codebase-design`** (below) is the bench you design the chosen one on.
+
+## Tracker integration
+
+- **`/copse`** defines how the tracker-dependent skills read and write Copse issue records, labels, worktree links, and body-level relationships. It fires when the repository uses `.copse/`; run `/setup-matt-pocock-skills` to choose Copse during repository setup.
 
 ## Vocabulary underneath
 

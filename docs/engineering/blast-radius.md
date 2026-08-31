@@ -20,4 +20,4 @@ The useful result is usually one fact that makes most risks disappear. The skill
 
 ## Where it fits
 
-`blast-radius` is a reach-for-it-anytime engineering standalone. It complements [how](https://aihero.dev/skills-how) for runtime behavior and [why](https://aihero.dev/skills-why) for design rationale. [ask-zac](https://aihero.dev/skills-ask-zac) routes across the full set.
+`blast-radius` is a reach-for-it-anytime engineering standalone. It complements [codebase-design](https://aihero.dev/skills-codebase-design) for module shape and [domain-modeling](https://aihero.dev/skills-domain-modeling) for terminology and domain behavior. [ask-zac](https://aihero.dev/skills-ask-zac) routes across the full set.

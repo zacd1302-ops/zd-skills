@@ -10,6 +10,8 @@ Two-axis review of the diff between `HEAD` and a fixed point the user supplies:
 
 Both axes run as **parallel sub-agents** so they don't pollute each other's context, then this skill aggregates their findings.
 
+Use this after implementation to check standards and spec compliance. Ask the user to run `/arena` before implementation when competing implementations need comparison. Call the Skill tool with "blast-radius" before merge when the main risk is hidden consumers or runtime behavior. Do not run both reviews by default.
+
 The issue tracker should have been provided to you. If `docs/agents/issue-tracker.md` is missing, tell the user to run `/setup-matt-pocock-skills`.
 
 ## Process

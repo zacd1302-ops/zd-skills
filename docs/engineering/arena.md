@@ -26,4 +26,4 @@ Use it when the shape of the answer is uncertain. Do not pay for several attempt
 
 ## Where it fits
 
-`arena` is a reach-for-it-anytime engineering standalone. It pairs with [prototype](https://aihero.dev/skills-prototype) for design questions and [interrogate](https://aihero.dev/skills-interrogate) for adversarial review. [ask-zac](https://aihero.dev/skills-ask-zac) routes across the full set.
+`arena` is a reach-for-it-anytime engineering standalone. It pairs with [prototype](https://aihero.dev/skills-prototype) for design questions and [code-review](https://aihero.dev/skills-code-review) when the chosen implementation is ready for review. [ask-zac](https://aihero.dev/skills-ask-zac) routes across the full set.
