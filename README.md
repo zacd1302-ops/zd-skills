@@ -107,6 +107,7 @@ Promoted skills are included in the plugin. User-invoked skills run only when yo
 ## Custom skills
 
 - [`study-course`](./skills/teaching/study-course/SKILL.md): The custom weekly course help workflow. It keeps a plan, attempts, prerequisite gaps, notes, and learning records across sessions while following the course material you provide.
+- [`copse`](./skills/engineering/copse/SKILL.md): The custom Copse issue tracker integration for the engineering skills.
 
 ## Beta skills
 
