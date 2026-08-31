@@ -8,44 +8,6 @@ A collection of reusable skills for Claude Code, Codex, and other coding agents.
 
 The original engineering skills come from [Matt Pocock](https://github.com/mattpocock). The pstack additions come from [Lauren Tan, known as poteto](https://github.com/poteto). This repository maintains and adapts both sets, and includes the custom `study-course` workflow.
 
-## Installation
-
-Choose one route. Do not install both. The plugin is managed by Claude Code. `skills.sh` copies editable files into your project.
-
-### Claude Code plugin
-
-```bash
-claude plugins install mattpocock-skills
-```
-
-Or, from inside a session:
-
-```
-/plugin install mattpocock-skills
-```
-
-It's in Claude Code's official marketplace, so there's nothing to add first, and updates arrive automatically.
-
-### Codex and other agents
-
-```bash
-npx skills@latest add mattpocock/skills
-```
-
-Pick the skills and coding agents to install. Include `setup-matt-pocock-skills` if you want the tracker-backed engineering flows.
-
-To install one skill:
-
-```bash
-npx skills@latest add mattpocock/skills --skill=<name>
-```
-
-To update one installed skill:
-
-```bash
-npx skills@latest update <name>
-```
-
 ## Start here
 
 Use [`ask-zac`](./skills/engineering/ask-zac/SKILL.md) when you are unsure which skill or flow fits.
