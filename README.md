@@ -77,6 +77,7 @@ Promoted skills are included in the plugin. User-invoked skills run only when yo
 - [`codebase-design`](./skills/engineering/codebase-design/SKILL.md): Designs deep modules with small interfaces and clean seams.
 - [`code-review`](./skills/engineering/code-review/SKILL.md): Reviews changes against repository standards and the originating spec.
 - [`resolving-merge-conflicts`](./skills/engineering/resolving-merge-conflicts/SKILL.md): Resolves merge or rebase conflicts by tracing intent.
+- [`version-control`](./skills/engineering/version-control/SKILL.md): Always-on git discipline for engineering work: one worktree and branch per feature or fix, main stays clean, history stays readable, merges stay safe.
 - [`wizard`](./skills/engineering/wizard/SKILL.md): Generates scripts for setup steps that require human action.
 
 ### Productivity
